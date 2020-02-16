@@ -109,18 +109,14 @@
 		3FC178B023F99DFF0049C370 /* Snippt */ = {
 			isa = PBXGroup;
 			children = (
+				3FC178F223F9A4610049C370 /* View */,
+				3FC178F123F9A4540049C370 /* Model */,
+				3FC178F023F9A4400049C370 /* Controllers */,
 				3FC178B123F99DFF0049C370 /* AppDelegate.swift */,
 				3FC178B323F99DFF0049C370 /* SceneDelegate.swift */,
-				3FC178B523F99DFF0049C370 /* ViewController.swift */,
-				3FC178B723F99DFF0049C370 /* Main.storyboard */,
 				3FC178BA23F99E000049C370 /* Assets.xcassets */,
 				3FC178BC23F99E000049C370 /* LaunchScreen.storyboard */,
 				3FC178BF23F99E000049C370 /* Info.plist */,
-				3FC178E123F9A2170049C370 /* AddViewController.swift */,
-				3FC178E323F9A22E0049C370 /* TableViewController.swift */,
-				3FC178E523F9A23C0049C370 /* EditViewController.swift */,
-				3FC178E723F9A39F0049C370 /* SavedCode.swift */,
-				3FC178E923F9A3BE0049C370 /* SavedCodeDataModel.swift */,
 			);
 			path = Snippt;
 			sourceTree = "<group>";
@@ -141,6 +137,34 @@
 				3FC178D523F99E000049C370 /* Info.plist */,
 			);
 			path = SnipptUITests;
+			sourceTree = "<group>";
+		};
+		3FC178F023F9A4400049C370 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FC178E123F9A2170049C370 /* AddViewController.swift */,
+				3FC178E323F9A22E0049C370 /* TableViewController.swift */,
+				3FC178E523F9A23C0049C370 /* EditViewController.swift */,
+				3FC178B523F99DFF0049C370 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3FC178F123F9A4540049C370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3FC178E723F9A39F0049C370 /* SavedCode.swift */,
+				3FC178E923F9A3BE0049C370 /* SavedCodeDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FC178F223F9A4610049C370 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3FC178B723F99DFF0049C370 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
