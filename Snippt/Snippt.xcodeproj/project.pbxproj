@@ -15,6 +15,11 @@
 		3FC178BE23F99E000049C370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC178BC23F99E000049C370 /* LaunchScreen.storyboard */; };
 		3FC178C923F99E000049C370 /* SnipptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC178C823F99E000049C370 /* SnipptTests.swift */; };
 		3FC178D423F99E000049C370 /* SnipptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC178D323F99E000049C370 /* SnipptUITests.swift */; };
+		3FC178E223F9A2170049C370 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC178E123F9A2170049C370 /* AddViewController.swift */; };
+		3FC178E423F9A22E0049C370 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC178E323F9A22E0049C370 /* TableViewController.swift */; };
+		3FC178E623F9A23C0049C370 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC178E523F9A23C0049C370 /* EditViewController.swift */; };
+		3FC178E823F9A39F0049C370 /* SavedCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC178E723F9A39F0049C370 /* SavedCode.swift */; };
+		3FC178EA23F9A3BE0049C370 /* SavedCodeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC178E923F9A3BE0049C370 /* SavedCodeDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		3FC178CF23F99E000049C370 /* SnipptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnipptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC178D323F99E000049C370 /* SnipptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnipptUITests.swift; sourceTree = "<group>"; };
 		3FC178D523F99E000049C370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FC178E123F9A2170049C370 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		3FC178E323F9A22E0049C370 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3FC178E523F9A23C0049C370 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		3FC178E723F9A39F0049C370 /* SavedCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCode.swift; sourceTree = "<group>"; };
+		3FC178E923F9A3BE0049C370 /* SavedCodeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCodeDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				3FC178BA23F99E000049C370 /* Assets.xcassets */,
 				3FC178BC23F99E000049C370 /* LaunchScreen.storyboard */,
 				3FC178BF23F99E000049C370 /* Info.plist */,
+				3FC178E123F9A2170049C370 /* AddViewController.swift */,
+				3FC178E323F9A22E0049C370 /* TableViewController.swift */,
+				3FC178E523F9A23C0049C370 /* EditViewController.swift */,
+				3FC178E723F9A39F0049C370 /* SavedCode.swift */,
+				3FC178E923F9A3BE0049C370 /* SavedCodeDataModel.swift */,
 			);
 			path = Snippt;
 			sourceTree = "<group>";
@@ -261,6 +276,11 @@
 			files = (
 				3FC178B623F99DFF0049C370 /* ViewController.swift in Sources */,
 				3FC178B223F99DFF0049C370 /* AppDelegate.swift in Sources */,
+				3FC178E823F9A39F0049C370 /* SavedCode.swift in Sources */,
+				3FC178E623F9A23C0049C370 /* EditViewController.swift in Sources */,
+				3FC178EA23F9A3BE0049C370 /* SavedCodeDataModel.swift in Sources */,
+				3FC178E223F9A2170049C370 /* AddViewController.swift in Sources */,
+				3FC178E423F9A22E0049C370 /* TableViewController.swift in Sources */,
 				3FC178B423F99DFF0049C370 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
