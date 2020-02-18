@@ -5,10 +5,14 @@
 * Karina Nguyen
 
 ## Inspiration
-Making something takes confidence, and nothing builds confidence like concrete evidence that we're headed in the right direction. But evidence is hard to come by in the world of new technologies and tools. We started with a question like: “How might technologies change the ways programming communities share their code?” and include a suggested prototype like: “Build a product that will allow developers to quickly share their code snippets.” This level of specificity felt stifling at first—but it helped us get moving fast toward a prototype.
+It's late at night and messages from your desperate classmate start flooding in on facebook before a deadline.
+
+"Yo, how do you initialize a DDRx port?", "Heyy, can you show me how you made the move constructor in C++, "I'll buy you boba if you show me how to...", so on so forth.
+
+Since you inevitably know you'll be in their shoes one day, you open up your projects and copy and paste relevant snippets and send them through messenger. This process of code snippet sharing is outdated and inefficient. We wanted to create a simple, yet powerful application that allows developers to share and save small code snippets.
 
 ## Our Solution
-After 36 grueling hours, we designed Snippt, a mobile application that streamlines the processes of sending and sharing code with others. Using optical character recognition and a proprietary formatting algorithm, users can quickly capture code they want to save or share without going through applications that are not designed for code sharing.
+After 36 hours, we designed Snippt, a mobile application that streamlines the processes of sending and sharing code with others. Using optical character recognition and a proprietary formatting algorithm, users can quickly capture code they want to save or share without going through applications that are not designed for code sharing.
 
 ## How we built it
 We built Snippt with:
@@ -22,7 +26,7 @@ We built Snippt with:
 * Constant changing of coding languages (Swift, React Native, Expo)
 
 ## Accomplishments that we're proud of
-Exploration was about charting unfamiliar territory. Sometimes that means we get it all wrong and end up at a dead-end. But that doesn’t mean the sprint was a failure! As we realized, the goal of an exploratory sprint was not to execute a million dollar idea in record time, but to surface new opportunities.
+We demoed :)
 
 ## What we learned
 Be aware of major OS updates
